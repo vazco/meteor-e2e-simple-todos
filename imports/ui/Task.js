@@ -28,7 +28,7 @@ export default class Task extends Component {
     });
 
     return (
-      <li className={taskClassName}>
+      <li className={taskClassName} data-test="task-item">
         <button className="delete" onClick={this.deleteThisTask.bind(this)}>
           &times;
         </button>
@@ -47,7 +47,8 @@ export default class Task extends Component {
         ) : ''}
 
         <span className="text">
-          <strong>{this.props.task.username}</strong>: {this.props.task.text}
+          <strong>{this.props.task.username}</strong>: {}
+          <span data-test="task-text">{this.props.task.text}</span>
         </span>
       </li>
     );

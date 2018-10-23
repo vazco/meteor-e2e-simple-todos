@@ -7,7 +7,7 @@
     "test": "CI=1 meteor test --full-app --driver-package universe:e2e --raw-logs --once"
   },
   "dependencies": {
-    "@babel/runtime": "7.0.0-beta.46",
+    "@babel/runtime": "7.1.2",
     "bcrypt": "1.0.3",
     "classnames": "2.2.5",
     "meteor-node-stubs": "0.3.3",

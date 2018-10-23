@@ -10,19 +10,19 @@ Most interesting parts are located in the `/imports/e2e-tests` directory.
 
 1. You must have [Meteor installed](https://www.meteor.com/install)
 2. Clone and go to this repo
-3. Install dependencies with `npm install`
+3. Install dependencies with `meteor npm install`
 
 ## Usage
 
 To run tests in watch mode (non-headless developer mode):
 
 ```
-npm run e2e
+meteor npm run e2e
 ```
 
 For headless, CI-ready tests just execute:
 ```
-npm test
+meteor npm test
 ```
 
 For full documentation please go to [universe:e2e repository](https://github.com/vazco/meteor-universe-e2e).
